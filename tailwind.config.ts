@@ -113,7 +113,11 @@ export default {
 			},
 			backgroundImage: {
 				'hero-gradient': 'var(--hero-gradient)',
-				'text-gradient': 'var(--text-gradient)'
+				'text-gradient': 'var(--text-gradient)',
+				'ocean-gradient': 'var(--ocean-gradient)'
+			},
+			backdropBlur: {
+				'glass': '20px'
 			}
 		}
 	},
