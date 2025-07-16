@@ -18,30 +18,30 @@ const Index = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-background/10 backdrop-blur-sm border border-background/20 rounded-full px-4 py-2 mb-8 animate-fade-up">
             <Sparkles className="h-4 w-4 text-primary-glow" />
-            <span className="text-sm font-medium text-background">Now Available</span>
+            <span className="text-sm font-medium text-background">Portfolio</span>
           </div>
 
-          {/* Main Heading */}
+          {/* Main Heading with Name */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-up text-background">
-            Launch Your
+            Hi, I'm
             <span className="block bg-text-gradient bg-clip-text text-transparent">
-              Next Big Idea
+              [Your Name]
             </span>
           </h1>
 
-          {/* Subheading */}
+          {/* Subtitle */}
           <p className="text-xl md:text-2xl text-background/80 mb-8 max-w-2xl mx-auto leading-relaxed animate-fade-up">
-            Transform your vision into reality with our cutting-edge platform designed for modern innovators and creators.
+            Creative Developer & Designer crafting beautiful digital experiences with modern technologies
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up">
             <Button variant="hero" size="lg" className="text-lg px-8 py-4 h-auto">
-              Get Started Free
+              View My Projects
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button variant="outline-hero" size="lg" className="text-lg px-8 py-4 h-auto text-background border-background/30 hover:bg-background hover:text-primary">
-              Watch Demo
+              Get In Touch
               <Zap className="ml-2 h-5 w-5" />
             </Button>
           </div>
