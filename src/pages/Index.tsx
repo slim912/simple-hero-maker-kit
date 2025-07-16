@@ -25,7 +25,7 @@ const Index = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-up text-background">
             Hi, I'm
             <span className="block bg-text-gradient bg-clip-text text-transparent">
-              [Your Name]
+              Slim
             </span>
           </h1>
 
